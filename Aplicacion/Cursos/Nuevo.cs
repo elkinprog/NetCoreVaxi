@@ -16,6 +16,9 @@ namespace Aplicacion
             public DateTime  FechaPublicacion { get; set; }
         }
 
+
+        
+
   
         public class Manejador : IRequestHandler<Ejecuta>
         {

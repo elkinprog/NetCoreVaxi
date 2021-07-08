@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ProyectoCore\\Persistencia\\Persistencia.csproj": {}
+    "c:\\NetCoreVaxi\\Persistencia\\Persistencia.csproj": {}
   },
   "projects": {
-    "C:\\ProyectoCore\\Dominio\\Dominio.csproj": {
+    "c:\\NetCoreVaxi\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ProyectoCore\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "c:\\NetCoreVaxi\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "C:\\ProyectoCore\\Dominio\\Dominio.csproj",
-        "packagesPath": "C:\\Users\\Software\\.nuget\\packages\\",
-        "outputPath": "C:\\ProyectoCore\\Dominio\\obj\\",
+        "projectPath": "c:\\NetCoreVaxi\\Dominio\\Dominio.csproj",
+        "packagesPath": "C:\\Users\\Developers Bross\\.nuget\\packages\\",
+        "outputPath": "c:\\NetCoreVaxi\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Software\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Developers Bross\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,6 +55,10 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[5.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.4, )"
             }
           },
           "imports": [
@@ -72,21 +76,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\ProyectoCore\\Persistencia\\Persistencia.csproj": {
+    "c:\\NetCoreVaxi\\Persistencia\\Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ProyectoCore\\Persistencia\\Persistencia.csproj",
+        "projectUniqueName": "c:\\NetCoreVaxi\\Persistencia\\Persistencia.csproj",
         "projectName": "Persistencia",
-        "projectPath": "C:\\ProyectoCore\\Persistencia\\Persistencia.csproj",
-        "packagesPath": "C:\\Users\\Software\\.nuget\\packages\\",
-        "outputPath": "C:\\ProyectoCore\\Persistencia\\obj\\",
+        "projectPath": "c:\\NetCoreVaxi\\Persistencia\\Persistencia.csproj",
+        "packagesPath": "C:\\Users\\Developers Bross\\.nuget\\packages\\",
+        "outputPath": "c:\\NetCoreVaxi\\Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Software\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Developers Bross\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -100,8 +104,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\ProyectoCore\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\ProyectoCore\\Dominio\\Dominio.csproj"
+              "c:\\NetCoreVaxi\\Dominio\\Dominio.csproj": {
+                "projectPath": "c:\\NetCoreVaxi\\Dominio\\Dominio.csproj"
               }
             }
           }
@@ -148,7 +152,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

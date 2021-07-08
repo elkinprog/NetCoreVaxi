@@ -9,6 +9,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using Persistencia;
+using FluentValidation.AspNetCore;
+using Aplicacion;
 
 namespace webAPI
 {
@@ -18,18 +20,19 @@ namespace webAPI
         {
             Configuration = configuration;
         }
-                public IConfiguration Configuration { get; }
+
+        public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
-        {   
+        {
 
-            services.AddDbContext<ConnectionContext>(options => 
+            services.AddDbContext<ConnectionContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultCoonection")));
 
             services.AddMediatR(typeof(Consulta.Manejador).Assembly);
 
-            services.AddControllers();
+            services.AddControllers().AddFluentValidation(cfg => cfg.RegisterValidatorsFromAssemblyContaining<Nuevo>());
 
 
             // services.AddSwaggerGen(c =>
@@ -60,7 +63,7 @@ namespace webAPI
             });
         }
 
-      
+
     }
 
 }
