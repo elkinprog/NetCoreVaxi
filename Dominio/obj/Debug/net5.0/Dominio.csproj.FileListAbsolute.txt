@@ -61,7 +61,6 @@ C:\NetCoreVaxi\Dominio\bin\Debug\net5.0\Dominio.runtimeconfig.dev.json
 C:\NetCoreVaxi\Dominio\bin\Debug\net5.0\Dominio.dll
 C:\NetCoreVaxi\Dominio\bin\Debug\net5.0\ref\Dominio.dll
 C:\NetCoreVaxi\Dominio\bin\Debug\net5.0\Dominio.pdb
-C:\NetCoreVaxi\Dominio\obj\Debug\net5.0\Dominio.csproj.AssemblyReference.cache
 C:\NetCoreVaxi\Dominio\obj\Debug\net5.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
 C:\NetCoreVaxi\Dominio\obj\Debug\net5.0\Dominio.AssemblyInfoInputs.cache
 C:\NetCoreVaxi\Dominio\obj\Debug\net5.0\Dominio.AssemblyInfo.cs
@@ -70,3 +69,4 @@ C:\NetCoreVaxi\Dominio\obj\Debug\net5.0\Dominio.dll
 C:\NetCoreVaxi\Dominio\obj\Debug\net5.0\ref\Dominio.dll
 C:\NetCoreVaxi\Dominio\obj\Debug\net5.0\Dominio.pdb
 C:\NetCoreVaxi\Dominio\obj\Debug\net5.0\Dominio.genruntimeconfig.cache
+C:\NetCoreVaxi\Dominio\obj\Debug\net5.0\Dominio.csprojAssemblyReference.cache
