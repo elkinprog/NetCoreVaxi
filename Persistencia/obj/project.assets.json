@@ -205,10 +205,12 @@
       "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
         "type": "package",
         "build": {
-          "build/_._": {}
+          "build/Microsoft.Extensions.ApiDescription.Server.props": {},
+          "build/Microsoft.Extensions.ApiDescription.Server.targets": {}
         },
         "buildMultiTargeting": {
-          "buildMultiTargeting/_._": {}
+          "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.props": {},
+          "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.targets": {}
         }
       },
       "Microsoft.Extensions.Caching.Abstractions/5.0.0": {
@@ -528,7 +530,7 @@
           "Swashbuckle.AspNetCore.SwaggerUI": "6.1.4"
         },
         "build": {
-          "build/_._": {}
+          "build/Swashbuckle.AspNetCore.props": {}
         }
       },
       "Swashbuckle.AspNetCore.Swagger/6.1.4": {
@@ -6052,7 +6054,8 @@
       "MediatR.Extensions.Microsoft.DependencyInjection >= 5.0.1",
       "Microsoft.EntityFrameworkCore >= 5.0.1",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.1",
-      "Microsoft.EntityFrameworkCore.Tools >= 5.0.1"
+      "Microsoft.EntityFrameworkCore.Tools >= 5.0.1",
+      "Swashbuckle.AspNetCore >= 6.1.4"
     ]
   },
   "packageFolders": {
@@ -6061,11 +6064,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\NetCoreVaxi\\Persistencia\\Persistencia.csproj",
+      "projectUniqueName": "C:\\NetCoreVaxi\\Persistencia\\Persistencia.csproj",
       "projectName": "Persistencia",
-      "projectPath": "c:\\NetCoreVaxi\\Persistencia\\Persistencia.csproj",
+      "projectPath": "C:\\NetCoreVaxi\\Persistencia\\Persistencia.csproj",
       "packagesPath": "C:\\Users\\Developers Bross\\.nuget\\packages\\",
-      "outputPath": "c:\\NetCoreVaxi\\Persistencia\\obj\\",
+      "outputPath": "C:\\NetCoreVaxi\\Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Developers Bross\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6082,8 +6085,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "c:\\NetCoreVaxi\\Dominio\\Dominio.csproj": {
-              "projectPath": "c:\\NetCoreVaxi\\Dominio\\Dominio.csproj"
+            "C:\\NetCoreVaxi\\Dominio\\Dominio.csproj": {
+              "projectPath": "C:\\NetCoreVaxi\\Dominio\\Dominio.csproj"
             }
           }
         }
@@ -6113,6 +6116,10 @@
           "Microsoft.EntityFrameworkCore.Tools": {
             "target": "Package",
             "version": "[5.0.1, )"
+          },
+          "Swashbuckle.AspNetCore": {
+            "target": "Package",
+            "version": "[6.1.4, )"
           }
         },
         "imports": [

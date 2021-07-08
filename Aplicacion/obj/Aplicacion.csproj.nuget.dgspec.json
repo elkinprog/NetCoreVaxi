@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\NetCoreVaxi\\Aplicacion\\Aplicacion.csproj": {}
+    "C:\\NetCoreVaxi\\Aplicacion\\Aplicacion.csproj": {}
   },
   "projects": {
-    "c:\\NetCoreVaxi\\Aplicacion\\Aplicacion.csproj": {
+    "C:\\NetCoreVaxi\\Aplicacion\\Aplicacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\NetCoreVaxi\\Aplicacion\\Aplicacion.csproj",
+        "projectUniqueName": "C:\\NetCoreVaxi\\Aplicacion\\Aplicacion.csproj",
         "projectName": "Aplicacion",
-        "projectPath": "c:\\NetCoreVaxi\\Aplicacion\\Aplicacion.csproj",
+        "projectPath": "C:\\NetCoreVaxi\\Aplicacion\\Aplicacion.csproj",
         "packagesPath": "C:\\Users\\Developers Bross\\.nuget\\packages\\",
-        "outputPath": "c:\\NetCoreVaxi\\Aplicacion\\obj\\",
+        "outputPath": "C:\\NetCoreVaxi\\Aplicacion\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Developers Bross\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "c:\\NetCoreVaxi\\Dominio\\Dominio.csproj": {
-                "projectPath": "c:\\NetCoreVaxi\\Dominio\\Dominio.csproj"
+              "C:\\NetCoreVaxi\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\NetCoreVaxi\\Dominio\\Dominio.csproj"
               },
-              "c:\\NetCoreVaxi\\Persistencia\\Persistencia.csproj": {
-                "projectPath": "c:\\NetCoreVaxi\\Persistencia\\Persistencia.csproj"
+              "C:\\NetCoreVaxi\\Persistencia\\Persistencia.csproj": {
+                "projectPath": "C:\\NetCoreVaxi\\Persistencia\\Persistencia.csproj"
               }
             }
           }
@@ -91,14 +91,14 @@
         }
       }
     },
-    "c:\\NetCoreVaxi\\Dominio\\Dominio.csproj": {
+    "C:\\NetCoreVaxi\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\NetCoreVaxi\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "C:\\NetCoreVaxi\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "c:\\NetCoreVaxi\\Dominio\\Dominio.csproj",
+        "projectPath": "C:\\NetCoreVaxi\\Dominio\\Dominio.csproj",
         "packagesPath": "C:\\Users\\Developers Bross\\.nuget\\packages\\",
-        "outputPath": "c:\\NetCoreVaxi\\Dominio\\obj\\",
+        "outputPath": "C:\\NetCoreVaxi\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Developers Bross\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -167,14 +167,14 @@
         }
       }
     },
-    "c:\\NetCoreVaxi\\Persistencia\\Persistencia.csproj": {
+    "C:\\NetCoreVaxi\\Persistencia\\Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\NetCoreVaxi\\Persistencia\\Persistencia.csproj",
+        "projectUniqueName": "C:\\NetCoreVaxi\\Persistencia\\Persistencia.csproj",
         "projectName": "Persistencia",
-        "projectPath": "c:\\NetCoreVaxi\\Persistencia\\Persistencia.csproj",
+        "projectPath": "C:\\NetCoreVaxi\\Persistencia\\Persistencia.csproj",
         "packagesPath": "C:\\Users\\Developers Bross\\.nuget\\packages\\",
-        "outputPath": "c:\\NetCoreVaxi\\Persistencia\\obj\\",
+        "outputPath": "C:\\NetCoreVaxi\\Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Developers Bross\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -191,8 +191,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "c:\\NetCoreVaxi\\Dominio\\Dominio.csproj": {
-                "projectPath": "c:\\NetCoreVaxi\\Dominio\\Dominio.csproj"
+              "C:\\NetCoreVaxi\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\NetCoreVaxi\\Dominio\\Dominio.csproj"
               }
             }
           }
@@ -222,6 +222,10 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[5.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.4, )"
             }
           },
           "imports": [

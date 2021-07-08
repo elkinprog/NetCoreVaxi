@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 using Dominio;
+using FluentValidation;
 using MediatR;
 using Persistencia;
 
@@ -13,13 +14,21 @@ namespace Aplicacion
         {
             public string Titulo { get; set; }
             public string Descripcion { get; set; }
-            public DateTime  FechaPublicacion { get; set; }
+            public DateTime ?  FechaPublicacion { get; set; }
         }
 
 
-        
+        public class EjecutaValidacion : AbstractValidator<Ejecuta>
+        {
+            public EjecutaValidacion()
+            {
+                RuleFor(X => X.Titulo).NotEmpty();
+                RuleFor(X => X.Descripcion).NotEmpty();
+                RuleFor(X => X.FechaPublicacion).NotEmpty();
+            }
+        }
 
-  
+
         public class Manejador : IRequestHandler<Ejecuta>
         {
             private readonly ConnectionContext _context;

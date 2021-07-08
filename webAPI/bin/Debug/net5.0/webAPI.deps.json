@@ -341,6 +341,36 @@
           "lib/net5.0/FluentValidation.dll": {}
         }
       },
+      "FluentValidation.AspNetCore/10.2.3": {
+        "dependencies": {
+          "FluentValidation": "10.2.3",
+          "FluentValidation.DependencyInjectionExtensions": "10.2.3"
+        },
+        "runtime": {
+          "lib/net5.0/FluentValidation.AspNetCore.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "10.2.3.0"
+          }
+        },
+        "compile": {
+          "lib/net5.0/FluentValidation.AspNetCore.dll": {}
+        }
+      },
+      "FluentValidation.DependencyInjectionExtensions/10.2.3": {
+        "dependencies": {
+          "FluentValidation": "10.2.3",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "10.2.3.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {}
+        }
+      },
       "Humanizer.Core/2.8.26": {
         "runtime": {
           "lib/netstandard2.0/Humanizer.dll": {
@@ -1413,12 +1443,13 @@
       "Aplicacion/1.0.0": {
         "dependencies": {
           "Dominio": "1.0.0",
-          "FluentValidation": "10.2.3",
+          "FluentValidation.AspNetCore": "10.2.3",
           "MediatR.Extensions.Microsoft.DependencyInjection": "5.0.1",
           "Microsoft.EntityFrameworkCore": "5.0.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.1",
           "Microsoft.EntityFrameworkCore.Tools": "5.0.1",
-          "Persistencia": "1.0.0"
+          "Persistencia": "1.0.0",
+          "Swashbuckle.AspNetCore": "6.1.4"
         },
         "runtime": {
           "Aplicacion.dll": {}
@@ -1432,7 +1463,8 @@
           "MediatR.Extensions.Microsoft.DependencyInjection": "5.0.1",
           "Microsoft.EntityFrameworkCore": "5.0.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.1",
-          "Microsoft.EntityFrameworkCore.Tools": "5.0.1"
+          "Microsoft.EntityFrameworkCore.Tools": "5.0.1",
+          "Swashbuckle.AspNetCore": "6.1.4"
         },
         "runtime": {
           "Dominio.dll": {}
@@ -1447,7 +1479,8 @@
           "MediatR.Extensions.Microsoft.DependencyInjection": "5.0.1",
           "Microsoft.EntityFrameworkCore": "5.0.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.1",
-          "Microsoft.EntityFrameworkCore.Tools": "5.0.1"
+          "Microsoft.EntityFrameworkCore.Tools": "5.0.1",
+          "Swashbuckle.AspNetCore": "6.1.4"
         },
         "runtime": {
           "Persistencia.dll": {}
@@ -3162,6 +3195,20 @@
       "sha512": "sha512-R2w/E6jgg9RPSlg7JQSTHg6AWDwlOXARaV4ZUKrPJ1gi1e+oaBEcomxmo29j9BLZivkyQhOpAboJ9nKZS4/xYA==",
       "path": "fluentvalidation/10.2.3",
       "hashPath": "fluentvalidation.10.2.3.nupkg.sha512"
+    },
+    "FluentValidation.AspNetCore/10.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-70wN+hrf/50nUISfIVh85ma7snSA+OW4SWrvgdd+Ap9Yt+tvaA/R3uXvBL2rykWn0ZvCK9KwDd6cu7uPRmoamw==",
+      "path": "fluentvalidation.aspnetcore/10.2.3",
+      "hashPath": "fluentvalidation.aspnetcore.10.2.3.nupkg.sha512"
+    },
+    "FluentValidation.DependencyInjectionExtensions/10.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jwrDR0O9RA6IvXkON5M+UBSW2fNtsR2a9dw3dZYNslLzoaPd8K+NiJpn6FPIw63PHnwxsN9muiiNuKXf8HMpaw==",
+      "path": "fluentvalidation.dependencyinjectionextensions/10.2.3",
+      "hashPath": "fluentvalidation.dependencyinjectionextensions.10.2.3.nupkg.sha512"
     },
     "Humanizer.Core/2.8.26": {
       "type": "package",
