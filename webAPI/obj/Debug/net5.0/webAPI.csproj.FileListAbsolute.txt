@@ -366,7 +366,6 @@ C:\NetCoreVaxi\webAPI\bin\Debug\net5.0\Persistencia.dll
 C:\NetCoreVaxi\webAPI\bin\Debug\net5.0\Persistencia.pdb
 C:\NetCoreVaxi\webAPI\bin\Debug\net5.0\Aplicacion.pdb
 C:\NetCoreVaxi\webAPI\bin\Debug\net5.0\Dominio.pdb
-C:\NetCoreVaxi\webAPI\obj\Debug\net5.0\webAPI.csproj.AssemblyReference.cache
 C:\NetCoreVaxi\webAPI\obj\Debug\net5.0\webAPI.GeneratedMSBuildEditorConfig.editorconfig
 C:\NetCoreVaxi\webAPI\obj\Debug\net5.0\webAPI.AssemblyInfoInputs.cache
 C:\NetCoreVaxi\webAPI\obj\Debug\net5.0\webAPI.AssemblyInfo.cs

@@ -1,8 +1,10 @@
 using System;
 using Microsoft.AspNetCore.Http;
-using Microsoft.Extensions.Loggin;
+using Microsoft.Extensions.Logging;
 using System.Threading.Tasks;
-
+using Newtonsoft.Json;
+using System.Net;
+using Aplicacion.ManejadorError;
 
 namespace webAPI.Middleware
 {
@@ -16,7 +18,7 @@ namespace webAPI.Middleware
             _logger = logger;
           }
 
-          public async Task Invocar(HttpContext context)
+          public async Task Invoke(HttpContext context)
           {
               try
               {
@@ -28,18 +30,29 @@ namespace webAPI.Middleware
               }
           }
 
-          private Task ManejadorExcepcionAsincrono(HttpContext context, Exception ex, ILogger<ManejadorErrorMiddleware> logger)
-            {
+        private async Task ManejadorExcepcionAsincrono(HttpContext context, Exception ex, ILogger<ManejadorErrorMiddleware> logger)
+        {
                   object  errores = null; 
                     switch(ex){
 
                         case ManejadorExcepcion me : 
+                                logger.LogError(ex, "Manejador Error");
+                                errores = me.Errores; 
+                                context.Response.StatusCode = (int)me.Codigo; 
+                                break; 
 
-                        logger.LogError(ex, "Manejador Error");
-                        errores = me.Errores; 
-                        context.Response.StatusCode = (int)me.Codigo; 
-                        break; 
+                        case Exception e : 
+                                logger.LogError(ex, "Error de servidor");
+                                errores = string.IsNullOrWhiteSpace(e.Message) ? "Error" : e.Message;
+                                context.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
+                                break; 
                     }
-            }
+                    context.Response.ContentType = "application/json";
+                    if (errores != null)
+                    {
+                        var resultados = JsonConvert.SerializeObject(new {errores});
+                        await context.Response.WriteAsync(resultados);
+                    }
+        }
     }
 }
