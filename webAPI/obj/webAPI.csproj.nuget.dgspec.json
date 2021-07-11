@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\NetCoreVaxi\\webAPI\\webAPI.csproj": {}
+    "c:\\NetCoreVaxi\\webAPI\\webAPI.csproj": {}
   },
   "projects": {
-    "C:\\NetCoreVaxi\\Aplicacion\\Aplicacion.csproj": {
+    "c:\\NetCoreVaxi\\Aplicacion\\Aplicacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\NetCoreVaxi\\Aplicacion\\Aplicacion.csproj",
+        "projectUniqueName": "c:\\NetCoreVaxi\\Aplicacion\\Aplicacion.csproj",
         "projectName": "Aplicacion",
-        "projectPath": "C:\\NetCoreVaxi\\Aplicacion\\Aplicacion.csproj",
-        "packagesPath": "C:\\Users\\Solaima\\.nuget\\packages\\",
-        "outputPath": "C:\\NetCoreVaxi\\Aplicacion\\obj\\",
+        "projectPath": "c:\\NetCoreVaxi\\Aplicacion\\Aplicacion.csproj",
+        "packagesPath": "C:\\Users\\Developers Bross\\.nuget\\packages\\",
+        "outputPath": "c:\\NetCoreVaxi\\Aplicacion\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Solaima\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Developers Bross\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -32,11 +28,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\NetCoreVaxi\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\NetCoreVaxi\\Dominio\\Dominio.csproj"
+              "c:\\NetCoreVaxi\\Dominio\\Dominio.csproj": {
+                "projectPath": "c:\\NetCoreVaxi\\Dominio\\Dominio.csproj"
               },
-              "C:\\NetCoreVaxi\\Persistencia\\Persistencia.csproj": {
-                "projectPath": "C:\\NetCoreVaxi\\Persistencia\\Persistencia.csproj"
+              "c:\\NetCoreVaxi\\Persistencia\\Persistencia.csproj": {
+                "projectPath": "c:\\NetCoreVaxi\\Persistencia\\Persistencia.csproj"
               }
             }
           }
@@ -95,26 +91,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\NetCoreVaxi\\Dominio\\Dominio.csproj": {
+    "c:\\NetCoreVaxi\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\NetCoreVaxi\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "c:\\NetCoreVaxi\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "C:\\NetCoreVaxi\\Dominio\\Dominio.csproj",
-        "packagesPath": "C:\\Users\\Solaima\\.nuget\\packages\\",
-        "outputPath": "C:\\NetCoreVaxi\\Dominio\\obj\\",
+        "projectPath": "c:\\NetCoreVaxi\\Dominio\\Dominio.csproj",
+        "packagesPath": "C:\\Users\\Developers Bross\\.nuget\\packages\\",
+        "outputPath": "c:\\NetCoreVaxi\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Solaima\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Developers Bross\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -175,26 +167,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\NetCoreVaxi\\Persistencia\\Persistencia.csproj": {
+    "c:\\NetCoreVaxi\\Persistencia\\Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\NetCoreVaxi\\Persistencia\\Persistencia.csproj",
+        "projectUniqueName": "c:\\NetCoreVaxi\\Persistencia\\Persistencia.csproj",
         "projectName": "Persistencia",
-        "projectPath": "C:\\NetCoreVaxi\\Persistencia\\Persistencia.csproj",
-        "packagesPath": "C:\\Users\\Solaima\\.nuget\\packages\\",
-        "outputPath": "C:\\NetCoreVaxi\\Persistencia\\obj\\",
+        "projectPath": "c:\\NetCoreVaxi\\Persistencia\\Persistencia.csproj",
+        "packagesPath": "C:\\Users\\Developers Bross\\.nuget\\packages\\",
+        "outputPath": "c:\\NetCoreVaxi\\Persistencia\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Solaima\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Developers Bross\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -207,8 +195,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\NetCoreVaxi\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\NetCoreVaxi\\Dominio\\Dominio.csproj"
+              "c:\\NetCoreVaxi\\Dominio\\Dominio.csproj": {
+                "projectPath": "c:\\NetCoreVaxi\\Dominio\\Dominio.csproj"
               }
             }
           }
@@ -259,26 +247,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\NetCoreVaxi\\webAPI\\webAPI.csproj": {
+    "c:\\NetCoreVaxi\\webAPI\\webAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\NetCoreVaxi\\webAPI\\webAPI.csproj",
+        "projectUniqueName": "c:\\NetCoreVaxi\\webAPI\\webAPI.csproj",
         "projectName": "webAPI",
-        "projectPath": "C:\\NetCoreVaxi\\webAPI\\webAPI.csproj",
-        "packagesPath": "C:\\Users\\Solaima\\.nuget\\packages\\",
-        "outputPath": "C:\\NetCoreVaxi\\webAPI\\obj\\",
+        "projectPath": "c:\\NetCoreVaxi\\webAPI\\webAPI.csproj",
+        "packagesPath": "C:\\Users\\Developers Bross\\.nuget\\packages\\",
+        "outputPath": "c:\\NetCoreVaxi\\webAPI\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Solaima\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Developers Bross\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -291,11 +275,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\NetCoreVaxi\\Aplicacion\\Aplicacion.csproj": {
-                "projectPath": "C:\\NetCoreVaxi\\Aplicacion\\Aplicacion.csproj"
+              "c:\\NetCoreVaxi\\Aplicacion\\Aplicacion.csproj": {
+                "projectPath": "c:\\NetCoreVaxi\\Aplicacion\\Aplicacion.csproj"
               },
-              "C:\\NetCoreVaxi\\Persistencia\\Persistencia.csproj": {
-                "projectPath": "C:\\NetCoreVaxi\\Persistencia\\Persistencia.csproj"
+              "c:\\NetCoreVaxi\\Persistencia\\Persistencia.csproj": {
+                "projectPath": "c:\\NetCoreVaxi\\Persistencia\\Persistencia.csproj"
               }
             }
           }
@@ -353,7 +337,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

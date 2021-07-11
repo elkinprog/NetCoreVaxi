@@ -36,10 +36,14 @@ namespace webAPI
             services.AddControllers().AddFluentValidation(cfg => cfg.RegisterValidatorsFromAssemblyContaining<Nuevo>());
 
 
-            // services.AddSwaggerGen(c =>
-            // {
-            //     c.SwaggerDoc("v1", new OpenApiInfo { Title = "webAPI", Version = "v1" });
-            // });
+            services.AddSwaggerGen(c => {
+               c.SwaggerDoc("v1", new OpenApiInfo { 
+                Title = "Servicios para mantenimiento de cursos", 
+                Version = "v1" 
+            });
+            c.CustomSchemaIds(c=> c.FullName);
+
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -50,14 +54,12 @@ namespace webAPI
 
             if (env.IsDevelopment())
             {
-
-                
                 //app.UseDeveloperExceptionPage();
-                // app.UseSwagger();
-                // app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "webAPI v1"));
             }
 
             //app.UseHttpsRedirection();
+
+            
 
             app.UseRouting();
 
@@ -67,9 +69,13 @@ namespace webAPI
             {
                 endpoints.MapControllers();
             });
+
+             app.UseSwagger();
+             app.UseSwaggerUI(c => {
+                 c.SwaggerEndpoint("/swagger/v1/swagger.json","Cursos Online V1");
+             });
+ 
         }
-
-
     }
-
 }
+
