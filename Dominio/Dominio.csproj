@@ -9,4 +9,9 @@
      <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="5.0.1"/>
        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.4"/>
   </ItemGroup>
+
+     <ItemGroup>
+  <FrameworkReference Include= "Microsoft.AspNetCore.App" Version="2.2.8"/>
+  </ItemGroup>
+  
 </Project>

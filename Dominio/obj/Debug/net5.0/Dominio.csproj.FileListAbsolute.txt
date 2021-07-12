@@ -69,4 +69,4 @@ C:\NetCoreVaxi\Dominio\obj\Debug\net5.0\Dominio.dll
 C:\NetCoreVaxi\Dominio\obj\Debug\net5.0\ref\Dominio.dll
 C:\NetCoreVaxi\Dominio\obj\Debug\net5.0\Dominio.pdb
 C:\NetCoreVaxi\Dominio\obj\Debug\net5.0\Dominio.genruntimeconfig.cache
-C:\NetCoreVaxi\Dominio\obj\Debug\net5.0\Dominio.csprojAssemblyReference.cache
+C:\NetCoreVaxi\Dominio\obj\Debug\net5.0\Dominio.csproj.AssemblyReference.cache

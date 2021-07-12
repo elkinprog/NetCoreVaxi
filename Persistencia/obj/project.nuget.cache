@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OnRjGk0rYFdNh4CGEGGYt+7ein/aVa2kJvcoIJHe9qGMXBfxYW89cogZuliiNNtlvlZQ7KMBDgkv807qiTSJHA==",
+  "dgSpecHash": "24Jmxbu7HnQCQQKnSGZ/svLyZ2j8Tq+VNcdRdfnMVWH63ZUVtm01mne0ka2jNFiqZcH6JGcHw3VZ4qj/cbSiEg==",
   "success": true,
-  "projectFilePath": "c:\\NetCoreVaxi\\Persistencia\\Persistencia.csproj",
+  "projectFilePath": "C:\\NetCoreVaxi\\Persistencia\\Persistencia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Developers Bross\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Developers Bross\\.nuget\\packages\\mediatr\\5.0.1\\mediatr.5.0.1.nupkg.sha512",

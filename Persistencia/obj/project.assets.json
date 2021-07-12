@@ -1628,7 +1628,10 @@
         },
         "runtime": {
           "bin/placeholder/Dominio.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -6064,11 +6067,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\NetCoreVaxi\\Persistencia\\Persistencia.csproj",
+      "projectUniqueName": "C:\\NetCoreVaxi\\Persistencia\\Persistencia.csproj",
       "projectName": "Persistencia",
-      "projectPath": "c:\\NetCoreVaxi\\Persistencia\\Persistencia.csproj",
+      "projectPath": "C:\\NetCoreVaxi\\Persistencia\\Persistencia.csproj",
       "packagesPath": "C:\\Users\\Developers Bross\\.nuget\\packages\\",
-      "outputPath": "c:\\NetCoreVaxi\\Persistencia\\obj\\",
+      "outputPath": "C:\\NetCoreVaxi\\Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Developers Bross\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6085,8 +6088,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "c:\\NetCoreVaxi\\Dominio\\Dominio.csproj": {
-              "projectPath": "c:\\NetCoreVaxi\\Dominio\\Dominio.csproj"
+            "C:\\NetCoreVaxi\\Dominio\\Dominio.csproj": {
+              "projectPath": "C:\\NetCoreVaxi\\Dominio\\Dominio.csproj"
             }
           }
         }
@@ -6133,6 +6136,9 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }

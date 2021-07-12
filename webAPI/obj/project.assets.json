@@ -1558,7 +1558,10 @@
         },
         "runtime": {
           "bin/placeholder/Aplicacion.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "Dominio/1.0.0": {
         "type": "project",
@@ -1575,7 +1578,10 @@
         },
         "runtime": {
           "bin/placeholder/Dominio.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "Persistencia/1.0.0": {
         "type": "project",
@@ -1593,7 +1599,10 @@
         },
         "runtime": {
           "bin/placeholder/Persistencia.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -5809,11 +5818,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\NetCoreVaxi\\webAPI\\webAPI.csproj",
+      "projectUniqueName": "C:\\NetCoreVaxi\\webAPI\\webAPI.csproj",
       "projectName": "webAPI",
-      "projectPath": "c:\\NetCoreVaxi\\webAPI\\webAPI.csproj",
+      "projectPath": "C:\\NetCoreVaxi\\webAPI\\webAPI.csproj",
       "packagesPath": "C:\\Users\\Developers Bross\\.nuget\\packages\\",
-      "outputPath": "c:\\NetCoreVaxi\\webAPI\\obj\\",
+      "outputPath": "C:\\NetCoreVaxi\\webAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Developers Bross\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5830,11 +5839,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "c:\\NetCoreVaxi\\Aplicacion\\Aplicacion.csproj": {
-              "projectPath": "c:\\NetCoreVaxi\\Aplicacion\\Aplicacion.csproj"
+            "C:\\NetCoreVaxi\\Aplicacion\\Aplicacion.csproj": {
+              "projectPath": "C:\\NetCoreVaxi\\Aplicacion\\Aplicacion.csproj"
             },
-            "c:\\NetCoreVaxi\\Persistencia\\Persistencia.csproj": {
-              "projectPath": "c:\\NetCoreVaxi\\Persistencia\\Persistencia.csproj"
+            "C:\\NetCoreVaxi\\Persistencia\\Persistencia.csproj": {
+              "projectPath": "C:\\NetCoreVaxi\\Persistencia\\Persistencia.csproj"
             }
           }
         }

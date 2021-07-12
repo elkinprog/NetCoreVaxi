@@ -84,4 +84,4 @@ C:\NetCoreVaxi\Persistencia\obj\Debug\net5.0\Persistencia.dll
 C:\NetCoreVaxi\Persistencia\obj\Debug\net5.0\ref\Persistencia.dll
 C:\NetCoreVaxi\Persistencia\obj\Debug\net5.0\Persistencia.pdb
 C:\NetCoreVaxi\Persistencia\obj\Debug\net5.0\Persistencia.genruntimeconfig.cache
-C:\NetCoreVaxi\Persistencia\obj\Debug\net5.0\Persistencia.csprojAssemblyReference.cache
+C:\NetCoreVaxi\Persistencia\obj\Debug\net5.0\Persistencia.csproj.AssemblyReference.cache

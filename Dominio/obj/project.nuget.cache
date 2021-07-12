@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vhXHqNUg8D8ixGzSJE8yd04awMp0ZTnzipckiHsIlTzhOeY4T+LSy9jhwQ1lUE0ANwXiowf54WdqwCj7S71Q0w==",
+  "dgSpecHash": "bWbz7ahjlvJQzEd57o59ZehILzyWMJ6LeArCabV5Q6Ycanl/45kY/Wlum32yykvHWlGGhLejZbnlmXdFnsWYOw==",
   "success": true,
-  "projectFilePath": "c:\\NetCoreVaxi\\Dominio\\Dominio.csproj",
+  "projectFilePath": "C:\\NetCoreVaxi\\Dominio\\Dominio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Developers Bross\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Developers Bross\\.nuget\\packages\\mediatr\\5.0.1\\mediatr.5.0.1.nupkg.sha512",

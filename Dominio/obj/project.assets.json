@@ -6041,11 +6041,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\NetCoreVaxi\\Dominio\\Dominio.csproj",
+      "projectUniqueName": "C:\\NetCoreVaxi\\Dominio\\Dominio.csproj",
       "projectName": "Dominio",
-      "projectPath": "c:\\NetCoreVaxi\\Dominio\\Dominio.csproj",
+      "projectPath": "C:\\NetCoreVaxi\\Dominio\\Dominio.csproj",
       "packagesPath": "C:\\Users\\Developers Bross\\.nuget\\packages\\",
-      "outputPath": "c:\\NetCoreVaxi\\Dominio\\obj\\",
+      "outputPath": "C:\\NetCoreVaxi\\Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Developers Bross\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6106,6 +6106,9 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }

@@ -94,4 +94,4 @@ C:\NetCoreVaxi\Aplicacion\obj\Debug\net5.0\Aplicacion.dll
 C:\NetCoreVaxi\Aplicacion\obj\Debug\net5.0\ref\Aplicacion.dll
 C:\NetCoreVaxi\Aplicacion\obj\Debug\net5.0\Aplicacion.pdb
 C:\NetCoreVaxi\Aplicacion\obj\Debug\net5.0\Aplicacion.genruntimeconfig.cache
-C:\NetCoreVaxi\Aplicacion\obj\Debug\net5.0\Aplicacion.csprojAssemblyReference.cache
+C:\NetCoreVaxi\Aplicacion\obj\Debug\net5.0\Aplicacion.csproj.AssemblyReference.cache

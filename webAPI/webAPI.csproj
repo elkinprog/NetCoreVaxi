@@ -2,6 +2,7 @@
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
+  
   <ItemGroup>
     <ProjectReference Include="..\Persistencia\Persistencia.csproj"/>
     <ProjectReference Include="..\Aplicacion\Aplicacion.csproj"/>
@@ -14,4 +15,5 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.4"/>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1"/>
   </ItemGroup>
+  
 </Project>

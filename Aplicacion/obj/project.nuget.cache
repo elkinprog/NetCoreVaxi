@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0RfwB93AIuN49ouow9uNPyK1pshzbg90/zxobVZz5HVitTq17GpBwNnoGyy3HyufiMFuuvlZiyi9IbPZdhzL1A==",
+  "dgSpecHash": "uRw2H/Ung0malKLUBeVjLKaC+B2de6uYYe6Xl0J3g9UehGOyD/p0TqKkJQR7+lGaUH/ZDR934a+G4GwCEopCJQ==",
   "success": true,
-  "projectFilePath": "c:\\NetCoreVaxi\\Aplicacion\\Aplicacion.csproj",
+  "projectFilePath": "C:\\NetCoreVaxi\\Aplicacion\\Aplicacion.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Developers Bross\\.nuget\\packages\\fluentvalidation\\10.2.3\\fluentvalidation.10.2.3.nupkg.sha512",
     "C:\\Users\\Developers Bross\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.2.3\\fluentvalidation.aspnetcore.10.2.3.nupkg.sha512",

@@ -384,4 +384,4 @@ C:\NetCoreVaxi\webAPI\obj\Debug\net5.0\webAPI.genruntimeconfig.cache
 C:\NetCoreVaxi\webAPI\bin\Debug\net5.0\FluentValidation.dll
 C:\NetCoreVaxi\webAPI\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
 C:\NetCoreVaxi\webAPI\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
-C:\NetCoreVaxi\webAPI\obj\Debug\net5.0\webAPI.csprojAssemblyReference.cache
+C:\NetCoreVaxi\webAPI\obj\Debug\net5.0\webAPI.csproj.AssemblyReference.cache
