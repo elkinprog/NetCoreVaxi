@@ -6036,19 +6036,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Developers Bross\\.nuget\\packages\\": {}
+    "C:\\Users\\ESP_8266 ESP_32\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\NetCoreVaxi\\Dominio\\Dominio.csproj",
+      "projectUniqueName": "C:\\Users\\ESP_8266 ESP_32\\source\\repos\\elkinprog\\NetCoreVaxi\\Dominio\\Dominio.csproj",
       "projectName": "Dominio",
-      "projectPath": "C:\\NetCoreVaxi\\Dominio\\Dominio.csproj",
-      "packagesPath": "C:\\Users\\Developers Bross\\.nuget\\packages\\",
-      "outputPath": "C:\\NetCoreVaxi\\Dominio\\obj\\",
+      "projectPath": "C:\\Users\\ESP_8266 ESP_32\\source\\repos\\elkinprog\\NetCoreVaxi\\Dominio\\Dominio.csproj",
+      "packagesPath": "C:\\Users\\ESP_8266 ESP_32\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ESP_8266 ESP_32\\source\\repos\\elkinprog\\NetCoreVaxi\\Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Developers Bross\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ESP_8266 ESP_32\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6113,7 +6113,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\Developers Bross\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Developers Bross\\.nuget\\packages"
+      "C:\\Users\\ESP_8266 ESP_32\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\ESP_8266 ESP_32\\.nuget\\packages"
     ]
   }
 }

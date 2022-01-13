@@ -85,3 +85,21 @@ C:\NetCoreVaxi\Persistencia\obj\Debug\net5.0\ref\Persistencia.dll
 C:\NetCoreVaxi\Persistencia\obj\Debug\net5.0\Persistencia.pdb
 C:\NetCoreVaxi\Persistencia\obj\Debug\net5.0\Persistencia.genruntimeconfig.cache
 C:\NetCoreVaxi\Persistencia\obj\Debug\net5.0\Persistencia.csproj.AssemblyReference.cache
+C:\Users\ESP_8266 ESP_32\source\repos\elkinprog\NetCoreVaxi\Persistencia\bin\Debug\net5.0\Persistencia.deps.json
+C:\Users\ESP_8266 ESP_32\source\repos\elkinprog\NetCoreVaxi\Persistencia\bin\Debug\net5.0\Persistencia.runtimeconfig.json
+C:\Users\ESP_8266 ESP_32\source\repos\elkinprog\NetCoreVaxi\Persistencia\bin\Debug\net5.0\Persistencia.runtimeconfig.dev.json
+C:\Users\ESP_8266 ESP_32\source\repos\elkinprog\NetCoreVaxi\Persistencia\bin\Debug\net5.0\Persistencia.dll
+C:\Users\ESP_8266 ESP_32\source\repos\elkinprog\NetCoreVaxi\Persistencia\bin\Debug\net5.0\ref\Persistencia.dll
+C:\Users\ESP_8266 ESP_32\source\repos\elkinprog\NetCoreVaxi\Persistencia\bin\Debug\net5.0\Persistencia.pdb
+C:\Users\ESP_8266 ESP_32\source\repos\elkinprog\NetCoreVaxi\Persistencia\bin\Debug\net5.0\Dominio.dll
+C:\Users\ESP_8266 ESP_32\source\repos\elkinprog\NetCoreVaxi\Persistencia\bin\Debug\net5.0\Dominio.pdb
+C:\Users\ESP_8266 ESP_32\source\repos\elkinprog\NetCoreVaxi\Persistencia\obj\Debug\net5.0\Persistencia.csproj.AssemblyReference.cache
+C:\Users\ESP_8266 ESP_32\source\repos\elkinprog\NetCoreVaxi\Persistencia\obj\Debug\net5.0\Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ESP_8266 ESP_32\source\repos\elkinprog\NetCoreVaxi\Persistencia\obj\Debug\net5.0\Persistencia.AssemblyInfoInputs.cache
+C:\Users\ESP_8266 ESP_32\source\repos\elkinprog\NetCoreVaxi\Persistencia\obj\Debug\net5.0\Persistencia.AssemblyInfo.cs
+C:\Users\ESP_8266 ESP_32\source\repos\elkinprog\NetCoreVaxi\Persistencia\obj\Debug\net5.0\Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\ESP_8266 ESP_32\source\repos\elkinprog\NetCoreVaxi\Persistencia\obj\Debug\net5.0\Persistencia.csproj.CopyComplete
+C:\Users\ESP_8266 ESP_32\source\repos\elkinprog\NetCoreVaxi\Persistencia\obj\Debug\net5.0\Persistencia.dll
+C:\Users\ESP_8266 ESP_32\source\repos\elkinprog\NetCoreVaxi\Persistencia\obj\Debug\net5.0\ref\Persistencia.dll
+C:\Users\ESP_8266 ESP_32\source\repos\elkinprog\NetCoreVaxi\Persistencia\obj\Debug\net5.0\Persistencia.pdb
+C:\Users\ESP_8266 ESP_32\source\repos\elkinprog\NetCoreVaxi\Persistencia\obj\Debug\net5.0\Persistencia.genruntimeconfig.cache

@@ -1,10 +1,10 @@
 using System.Collections.Generic;
-
+using System;
 namespace Dominio
 {
     public class Instructor
     {
-        public int InstructorId {get;set;}
+        public Guid InstructorId {get;set;}
         public string Nombre {get;set;}
         public string Apellido {get;set;}
         public int Grado {get;set;}

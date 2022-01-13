@@ -70,3 +70,18 @@ C:\NetCoreVaxi\Dominio\obj\Debug\net5.0\ref\Dominio.dll
 C:\NetCoreVaxi\Dominio\obj\Debug\net5.0\Dominio.pdb
 C:\NetCoreVaxi\Dominio\obj\Debug\net5.0\Dominio.genruntimeconfig.cache
 C:\NetCoreVaxi\Dominio\obj\Debug\net5.0\Dominio.csproj.AssemblyReference.cache
+C:\Users\ESP_8266 ESP_32\source\repos\elkinprog\NetCoreVaxi\Dominio\bin\Debug\net5.0\Dominio.deps.json
+C:\Users\ESP_8266 ESP_32\source\repos\elkinprog\NetCoreVaxi\Dominio\bin\Debug\net5.0\Dominio.runtimeconfig.json
+C:\Users\ESP_8266 ESP_32\source\repos\elkinprog\NetCoreVaxi\Dominio\bin\Debug\net5.0\Dominio.runtimeconfig.dev.json
+C:\Users\ESP_8266 ESP_32\source\repos\elkinprog\NetCoreVaxi\Dominio\bin\Debug\net5.0\Dominio.dll
+C:\Users\ESP_8266 ESP_32\source\repos\elkinprog\NetCoreVaxi\Dominio\bin\Debug\net5.0\ref\Dominio.dll
+C:\Users\ESP_8266 ESP_32\source\repos\elkinprog\NetCoreVaxi\Dominio\bin\Debug\net5.0\Dominio.pdb
+C:\Users\ESP_8266 ESP_32\source\repos\elkinprog\NetCoreVaxi\Dominio\obj\Debug\net5.0\Dominio.csproj.AssemblyReference.cache
+C:\Users\ESP_8266 ESP_32\source\repos\elkinprog\NetCoreVaxi\Dominio\obj\Debug\net5.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ESP_8266 ESP_32\source\repos\elkinprog\NetCoreVaxi\Dominio\obj\Debug\net5.0\Dominio.AssemblyInfoInputs.cache
+C:\Users\ESP_8266 ESP_32\source\repos\elkinprog\NetCoreVaxi\Dominio\obj\Debug\net5.0\Dominio.AssemblyInfo.cs
+C:\Users\ESP_8266 ESP_32\source\repos\elkinprog\NetCoreVaxi\Dominio\obj\Debug\net5.0\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\ESP_8266 ESP_32\source\repos\elkinprog\NetCoreVaxi\Dominio\obj\Debug\net5.0\Dominio.dll
+C:\Users\ESP_8266 ESP_32\source\repos\elkinprog\NetCoreVaxi\Dominio\obj\Debug\net5.0\ref\Dominio.dll
+C:\Users\ESP_8266 ESP_32\source\repos\elkinprog\NetCoreVaxi\Dominio\obj\Debug\net5.0\Dominio.pdb
+C:\Users\ESP_8266 ESP_32\source\repos\elkinprog\NetCoreVaxi\Dominio\obj\Debug\net5.0\Dominio.genruntimeconfig.cache

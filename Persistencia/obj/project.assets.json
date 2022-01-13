@@ -6062,19 +6062,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Developers Bross\\.nuget\\packages\\": {}
+    "C:\\Users\\ESP_8266 ESP_32\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\NetCoreVaxi\\Persistencia\\Persistencia.csproj",
+      "projectUniqueName": "C:\\Users\\ESP_8266 ESP_32\\source\\repos\\elkinprog\\NetCoreVaxi\\Persistencia\\Persistencia.csproj",
       "projectName": "Persistencia",
-      "projectPath": "C:\\NetCoreVaxi\\Persistencia\\Persistencia.csproj",
-      "packagesPath": "C:\\Users\\Developers Bross\\.nuget\\packages\\",
-      "outputPath": "C:\\NetCoreVaxi\\Persistencia\\obj\\",
+      "projectPath": "C:\\Users\\ESP_8266 ESP_32\\source\\repos\\elkinprog\\NetCoreVaxi\\Persistencia\\Persistencia.csproj",
+      "packagesPath": "C:\\Users\\ESP_8266 ESP_32\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ESP_8266 ESP_32\\source\\repos\\elkinprog\\NetCoreVaxi\\Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Developers Bross\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ESP_8266 ESP_32\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6088,8 +6088,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\NetCoreVaxi\\Dominio\\Dominio.csproj": {
-              "projectPath": "C:\\NetCoreVaxi\\Dominio\\Dominio.csproj"
+            "C:\\Users\\ESP_8266 ESP_32\\source\\repos\\elkinprog\\NetCoreVaxi\\Dominio\\Dominio.csproj": {
+              "projectPath": "C:\\Users\\ESP_8266 ESP_32\\source\\repos\\elkinprog\\NetCoreVaxi\\Dominio\\Dominio.csproj"
             }
           }
         }
@@ -6143,7 +6143,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
       }
     }
   }
